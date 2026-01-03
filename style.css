@@ -111,7 +111,27 @@ body {
 .page-hero h1 {
   font-size: 2.4rem;
 }
+/* ------------------ DIRECTOR SECTION RESPONSIVE ------------------ */
 
+
+
+@media (max-width: 768px) {
+  .director {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .director-img {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .director-text {
+    order: 2;
+    max-width: 100%;
+  }
+}
 /* ------------------ SECTIONS ------------------ */
 .section {
   padding: 70px 12%;
@@ -419,3 +439,4 @@ footer iframe {
   }
 
 }
+
