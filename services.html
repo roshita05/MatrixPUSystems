@@ -2,40 +2,47 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Services | Matrix PU Systems</title>
 <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" type="image/webp" href="images/favicon.webp" sizes="64x64">
+  <script src="navigation.js" defer></script>
 </head>
 <body>
 
 <!-- NAV -->
 <header class="navbar">
-  <div class="nav-left">
-    <img src="images/LOGO.png" alt="Matrix PU Systems Logo" class="logo-img">
+  <a class="nav-left" href="index.html" aria-label="Matrix PU Systems home">
+    <img src="images/LOGO.webp" alt="" class="logo-img" width="50" height="49">
     <span class="brand">Matrix PU Systems</span>
-  </div>
-
-  <nav class="nav-links">
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+    <span class="menu-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Open navigation</span>
+  </button>
+  <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
+    <a href="services.html" aria-current="page">Services</a>
     <a href="products.html">Products</a>
   </nav>
 </header>
 
-<div class="para"><strong><br> Delivering High-Performance Polyurethane Solutions across Key Industries with a Focus on Performance, Durability, and Design Flexibility.</strong>
+<main id="main-content">
+
+<div class="para"><strong>Delivering High-Performance Polyurethane Solutions across Key Industries with a Focus on Performance, Durability, and Design Flexibility.</strong>
 </div>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></div>
 <section class="page-hero">
-    
+
   <h1>INDUSTRIES WE SERVE</h1>
-  
+
 </section>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 <!-- SERVICE BLOCK -->
 <section class="service">
   <div class="carousel" data-carousel>
-    <img src="images/carseat.jpg" class="active">
-    <img src="images/cycleseat.png">
-    <img src="images/trainseat.png">
+    <img src="images/carseat.webp" class="active" width="1500" height="1500" alt="Passenger vehicle seating">
+    <img src="images/cycleseat.webp" width="498" height="478" alt="Two-wheeler seating">
+    <img src="images/trainseat.webp" width="760" height="562" alt="Railway seating">
   </div>
 
   <div class="service-text">
@@ -47,7 +54,6 @@
     </ul>
   </div>
 </section>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 <section class="service dark">
     <div class="service-text">
     <h2>COMFORT AND SEATING SOLUTIONS </h2>
@@ -56,19 +62,18 @@
       <li>Mattresses</li>
       <li>Cushions & pillows</li>
     </ul>
-  </div> 
+  </div>
   <div class="carousel" data-carousel>
-    <img src="images/chair.png" class="active">
-    <img src="images/cushions.png">
-    <img src="images/bed.png">
+    <img src="images/chair.webp" class="active" width="607" height="556" alt="Office chair">
+    <img src="images/cushions.webp" width="513" height="526" alt="Cushions and pillows">
+    <img src="images/bed.webp" width="498" height="493" alt="Mattress">
   </div>
 </section>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 <section class="service">
   <div class="carousel" data-carousel>
-    <img src="images/ref.png" class="active">
-    <img src="images/geyser.png">
-    <img src="images/insulator.png">
+    <img src="images/ref.webp" class="active" width="736" height="682" alt="Refrigerator insulation">
+    <img src="images/geyser.webp" width="703" height="627" alt="Water heater insulation">
+    <img src="images/insulator.webp" width="580" height="556" alt="Thermal insulation products">
   </div>
 
   <div class="service-text">
@@ -83,7 +88,6 @@
     </ul>
   </div>
 </section>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 <section class="service dark">
     <div class="service-text">
     <h2>FASHION INDUSTRY AND SPORTS APPLICATIONS</h2>
@@ -92,15 +96,16 @@
       <li>Jogging tracks and gym floorings</li>
       <li>Sports mats and protective padding</li>
     </ul>
-  </div> 
+  </div>
   <div class="carousel" data-carousel>
-    <img src="images/man.png" class="active">
-    <img src="images/gymmat.png">
-    <img src="images/parkmat.png">
+    <img src="images/man.webp" class="active" width="414" height="474" alt="Display mannequins">
+    <img src="images/gymmat.webp" width="484" height="486" alt="Gym flooring">
+    <img src="images/parkmat.webp" width="486" height="487" alt="Sports and playground mats">
   </div>
 </section>
-<div class="spacer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br></div>
 <!-- FOOTER -->
+</main>
+
 <footer>
   <div class="footer-content">
     <div>
@@ -114,6 +119,7 @@
     </div>
 
     <iframe
+      title="Map of Rai Industrial Area, Sonipat"
       src="https://www.google.com/maps?q=Rai%20Industrial%20Area%20Sonipat&output=embed"
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade">
@@ -124,4 +130,3 @@
 <script src="carousel.js"></script>
 </body>
 </html>
-
